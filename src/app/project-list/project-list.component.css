@@ -1,0 +1,21 @@
+.project-list-container{
+    margin-top: 20px;
+    background-color:  #fcfcfc !important;
+    height: 2000px;
+}
+
+.card-project{
+    color: #000;
+}
+
+.card-project:hover{
+    background-color: #f5f5f5 !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.badge{
+    margin-left: 10px;
+}

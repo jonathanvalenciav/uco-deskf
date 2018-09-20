@@ -1,0 +1,44 @@
+.sidenav {
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255) !important;
+    /* background-color: rgb(6, 98, 151); */
+    margin-top: 50px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px; width: 0;}
+    .sidenav a {font-size: 18px;}
+}
+
+.tool-sidenav{
+    color: rgb(255,255,255);
+    background-color: rgb(14, 101, 216);
+    border-radius: 50%;
+    padding: 7px;
+    margin-top: 10px;
+}

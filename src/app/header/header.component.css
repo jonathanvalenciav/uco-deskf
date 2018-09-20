@@ -1,3 +1,30 @@
 .nav-header{
+    background-color: rgb(255,255,255) !important;
     height: 50px;
 }
+
+.btn-outline-light{
+    background-color: #fff;
+    color:  rgba(37, 37, 37, 0.100);
+} 
+
+.btn-header{
+    margin-right: 10px;
+}
+
+.toolbox-navbar{
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.tools-navbar{
+    padding: 3px;
+    margin-bottom: 0;
+}
+
+.avatar-icon{
+    width: 20px;
+    height: 20px;
+}
+
