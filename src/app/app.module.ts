@@ -7,6 +7,9 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { AsideNavComponent } from './aside-nav/aside-nav.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { CardSummaryProjectComponent } from './card-summary-project/card-summary-project.component';
+import { FormNewProjectComponent } from './form-new-project/form-new-project.component';
+import { FormNewTaskComponent } from './form-new-task/form-new-task.component';
+import { ModalShowComponent } from './modal-show/modal-show.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { CardSummaryProjectComponent } from './card-summary-project/card-summary
     AsideNavComponent,
     ProjectListComponent,
     CardSummaryProjectComponent,
+    FormNewProjectComponent,
+    FormNewTaskComponent,
+    ModalShowComponent,
   ],
   imports: [
     BrowserModule
