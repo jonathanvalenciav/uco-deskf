@@ -19,6 +19,7 @@
 }
 
 .tools-navbar{
+    color: rgb(14, 101, 216);
     padding: 3px;
     margin-bottom: 0;
 }
@@ -26,5 +27,23 @@
 .avatar-icon{
     width: 20px;
     height: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.dropdown-username-icon{
+    color: rgb(14, 101, 216);
+    font-size: 1em;
+}
+
+.main-item-header{
+    font-weight: 600 !important;
+    color: rgb(14, 101, 216) !important;
+}
+
+.main-item-header:active{
+    color: rgb(12, 59, 121) !important;
 }
 

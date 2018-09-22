@@ -1,12 +1,19 @@
-<div class="sidenav border-right">
+<div class="sidenav position-absolute border-right">
   <div class="row">
     <div class="col-md-12">
         <div class="fixed-action-btn">
           <a href = "#" class="btn-floating btn-large red"> <i class="tool-sidenav large material-icons">apps</i></a>
         </div>
 
-        <div class="fixed-action-btn">
-          <a href = "#" class="btn-floating btn-large red"> <i class="tool-sidenav large material-icons">add</i></a>
+        <div class="fixed-action-btn btn-group dropright">
+          <a href = "#" class="btn-floating dropdown-toggle" aria-labelledby="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="tool-sidenav large material-icons">add</i>
+          </a>
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"> New project </a>
+            <a class="dropdown-item" href="#"> New task </a>
+          </div>
         </div>
 
         <div class="fixed-action-btn">
