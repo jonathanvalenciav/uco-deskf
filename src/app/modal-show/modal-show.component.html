@@ -8,8 +8,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <app-form-new-project></app-form-new-project>
-        <!-- <app-form-new-task></app-form-new-task> -->
+        <app-form-new-project *ngIf="isCalled"></app-form-new-project>
+        <app-form-new-task *ngIf="isCalled"></app-form-new-task>
       </div>
     </div>
   </div>

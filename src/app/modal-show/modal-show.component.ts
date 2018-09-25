@@ -14,4 +14,8 @@ export class ModalShowComponent implements OnInit {
   ngOnInit() {
   }
 
+  toggleClicked(){
+    
+  }
+
 }

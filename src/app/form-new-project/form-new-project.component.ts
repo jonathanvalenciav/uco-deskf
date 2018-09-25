@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class FormNewProjectComponent implements OnInit {
+  isCalled = false;
   constructor() { }
+
 
   ngOnInit() {
   }

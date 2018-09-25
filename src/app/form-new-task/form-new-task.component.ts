@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-new-task.component.css']
 })
 export class FormNewTaskComponent implements OnInit {
-
+  isCalled = true;
   constructor() { }
 
   ngOnInit() {
